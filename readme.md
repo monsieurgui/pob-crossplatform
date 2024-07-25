@@ -9,13 +9,13 @@ This Docker image allows you to run Path of Building through a web browser using
 1. Pull the Docker image from Docker Hub:
 
     ```bash
-    docker pull your-dockerhub-username/pathofbuilding-novnc:latest
+    docker pull monsieurgui/pathofbuilding-novnc:latest
     ```
 
 2. Run the Docker container:
 
     ```bash
-    docker run -it --rm -p 6080:6080 your-dockerhub-username/pathofbuilding-novnc:latest
+    docker run -it --rm -p 6080:6080 monsieurgui/pathofbuilding-novnc:latest
     ```
 
 3. Open your web browser and navigate to `http://localhost:6080`. You will be redirected to the noVNC interface, where you can interact with Path of Building.
@@ -28,7 +28,7 @@ This Docker image allows you to run Path of Building through a web browser using
 
 ## Issues and Contributions
 
-If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request on the [GitHub repository](https://github.com/your-repository-link).
+If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request on the [GitHub repository](https://github.com/monsieurgui/pob-crossplatform).
 
 ## License
 
